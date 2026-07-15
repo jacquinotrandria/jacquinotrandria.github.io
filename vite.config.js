@@ -7,7 +7,7 @@ import { fileURLToPath, URL } from "node:url";
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   return {
-    base: '/jacquinotrandria/',
+    base: '/',
     plugins: [
       react(),
       tailwindcss(),
